@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS 2025 | Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="LOGO SS.png" type="image/x-icon">
+</head>
+<body>
+
+    <div id="loadingBanner" class="loading-banner" style="display: none;">
+        <p>Loading... Please wait.</p>
+    </div>
+
+    <div class="container">
+	<img src="LOGO SS.png" alt="COMING SOON" class="image2">
+        <h1>Pendaftaran SUPER STAR 2025</h1>
+        <form id="uploadForm" enctype="multipart/form-data" onsubmit="submitForm(event)">
+	    <label for="name0">Sila masukkan nama pasukan:</label>
+            <input type="text" id="name0" name="name0" placeholder="PEJUANG FIGHTER" required>
+		<div class="form-group">
+	    <label class="title">KETUA PASUKAN (PEMAIN 1)</label>
+            <label for="name1">Nama penuh:</label>
+            <input type="text" id="name1" name="name1" required>
+
+            <label for="matrix1">No matrik:</label>
+            <input type="text" id="matrix1" name="matrix1" required>
+
+            <label for="phone1">No telefon:</label>
+            <input type="phone" id="phone1" name="phone1" required>
+		</div>
+		<div class="form-group">
+	    <label class="title">PEMAIN 2</label>
+            <label for="name2">Nama penuh:</label>
+            <input type="text" id="name2" name="name2" required>
+
+            <label for="matrix2">No matrik:</label>
+            <input type="text" id="matrix2" name="matrix2" required>
+
+            <label for="phone2">No telefon:</label>
+            <input type="phone" id="phone2" name="phone2" required>
+		</div>
+		<div class="form-group">
+	    <label class="title">PEMAIN 3</label>
+            <label for="name3">Nama penuh:</label>
+            <input type="text" id="name3" name="name3" required>
+
+            <label for="matrix3">No matrik:</label>
+            <input type="text" id="matrix3" name="matrix3" required>
+
+            <label for="phone3">No telefon:</label>
+            <input type="phone" id="phone3" name="phone3" required>
+		</div>
+		<div class="form-group">
+	    <label class="title">PEMAIN 4</label>
+            <label for="name4">Nama penuh:</label>
+            <input type="text" id="name4" name="name4" required>
+
+            <label for="matrix4">No matrik:</label>
+            <input type="text" id="matrix4" name="matrix4" required>
+
+            <label for="phone4">No telefon:</label>
+            <input type="phone" id="phone4" name="phone4" required>
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 5</label>
+            <label for="name5">Nama penuh:</label>
+            <input type="text" id="name5" name="name5" required>
+
+            <label for="matrix5">No matrik:</label>
+            <input type="text" id="matrix5" name="matrix5" required>
+
+            <label for="phone5">No telefon:</label>
+            <input type="phone" id="phone5" name="phone5" required>
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 6</label>
+            <label for="name6">Nama penuh:</label>
+            <input type="text" id="name6" name="name6" required>
+
+            <label for="matrix6">No matrik:</label>
+            <input type="text" id="matrix6" name="matrix6" required>
+
+            <label for="phone6">No telefon:</label>
+            <input type="phone" id="phone6" name="phone6" required>
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 7</label>
+            <label for="name7">Nama penuh:</label>
+            <input type="text" id="name7" name="name7" required>
+
+            <label for="matrix7">No matrik:</label>
+            <input type="text" id="matrix7" name="matrix7" required>
+
+            <label for="phone7">No telefon:</label>
+            <input type="phone" id="phone7" name="phone7" required>
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 8</label>
+            <label for="name8">Nama penuh:</label>
+            <input type="text" id="name8" name="name8" required>
+
+            <label for="matrix8">No matrik:</label>
+            <input type="text" id="matrix8" name="matrix8" required>
+
+            <label for="phone8">No telefon:</label>
+            <input type="phone" id="phone8" name="phone8" required>
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 9</label>
+            <label for="name9">Nama penuh:</label>
+            <input type="text" id="name9" name="name9" required>
+
+            <label for="matrix9">No matrik:</label>
+            <input type="text" id="matrix9" name="matrix9" required>
+
+            <label for="phone9">No telefon:</label>
+            <input type="phone" id="phone9" name="phone9" required>
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 10</label>
+            <label for="name10">Nama penuh:</label>
+            <input type="text" id="name10" name="name10">
+
+            <label for="matrix10">No matrik:</label>
+            <input type="text" id="matrix10" name="matrix10">
+
+            <label for="phone10">No telefon:</label>
+            <input type="phone" id="phone10" name="phone10">
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 11</label>
+            <label for="name11">Nama penuh:</label>
+            <input type="text" id="name11" name="name11">
+
+            <label for="matrix11">No matrik:</label>
+            <input type="text" id="matrix11" name="matrix11">
+
+            <label for="phone11">No telefon:</label>
+            <input type="phone" id="phone11" name="phone11">
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 12</label>
+            <label for="name12">Nama penuh:</label>
+            <input type="text" id="name12" name="name12">
+
+            <label for="matrix12">No matrik:</label>
+            <input type="text" id="matrix12" name="matrix12">
+
+            <label for="phone12">No telefon:</label>
+            <input type="phone" id="phone12" name="phone12">
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 13</label>
+            <label for="name13">Nama penuh:</label>
+            <input type="text" id="name13" name="name13">
+
+            <label for="matrix13">No matrik:</label>
+            <input type="text" id="matrix13" name="matrix13">
+
+            <label for="phone13">No telefon:</label>
+            <input type="phone" id="phone13" name="phone13">
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 14</label>
+            <label for="name14">Nama penuh:</label>
+            <input type="text" id="name14" name="name14">
+
+            <label for="matrix14">No matrik:</label>
+            <input type="text" id="matrix14" name="matrix14">
+
+            <label for="phone14">No telefon:</label>
+            <input type="phone" id="phone14" name="phone14">
+		</div>
+		<div class="form-group">
+		<label class="title">PEMAIN 15</label>
+            <label for="name15">Nama penuh:</label>
+            <input type="text" id="name15" name="name15">
+
+            <label for="matrix15">No matrik:</label>
+            <input type="text" id="matrix15" name="matrix15">
+
+            <label for="phone15">No telefon:</label>
+            <input type="phone" id="phone15" name="phone15">
+		</div>
+            <!-- File Upload -->
+            <label for="file">Muat naik RESIT PEMBAYARAN YURAN</label>
+            <input type="file" id="fileInput" name="file" required>
+	    
+	    <!--<button type="submit">Daftar - Klik sekali sahaja, tunggu sehingga SUCCESS</button>-->
+            <button type="submit" id="submitBtn" onclick="disableButton()">PENDAFTARAN BELUM DIBUKA</button>
+        </form>
+        <p id="responseMessage" style="display:none; color:green;">Pendaftaran Telah Diterima</p>
+        <img src="QR.jpg" alt="QR" class="image">
+    </div>
+	<div id="messageBanner" style="display:none; background-color: green; color: white; padding: 10px; text-align: center; position: fixed; top: 10px; width: 100%; z-index: 1000;">
+    		<p id="responseMessage">Pendaftaran Telah Diterima</p>
+	</div>
+    <script src="script2.js"></script>
+</body>
+</html>
